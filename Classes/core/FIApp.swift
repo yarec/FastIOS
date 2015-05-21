@@ -2,9 +2,9 @@ import XCGLogger
 import MojoDB
 import UIKit
 
-let flog = XCGLogger.defaultInstance()
+public let flog = XCGLogger.defaultInstance()
 
-class FIApp: UIResponder  {
+public class FIApp: UIResponder  {
                             
     var window: UIWindow?
     var database: AppDatabase!
