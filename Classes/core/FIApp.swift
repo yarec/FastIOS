@@ -11,7 +11,7 @@ public class FIApp: UIResponder  {
 
     public func setup(){
         flog.setup(logLevel: .Debug, showLogLevel: false, showFileNames: false, showLineNumbers: false, writeToFile: nil, fileLogLevel: .Debug)
-        setup()
+        setupWithOutLog()
     }
     
     public func setupWithOutLog(){
