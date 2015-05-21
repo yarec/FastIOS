@@ -9,10 +9,13 @@ public class FIApp: UIResponder  {
     var window: UIWindow?
     var database: AppDatabase!
 
-    func setup(){
+    public func setup(){
         flog.setup(logLevel: .Debug, showLogLevel: false, showFileNames: false, showLineNumbers: false, writeToFile: nil, fileLogLevel: .Debug)
+        setup()
+    }
+    
+    public func setupWithOutLog(){
         database = AppDatabase(migrations: false)
-        
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         window?.makeKeyAndVisible()
