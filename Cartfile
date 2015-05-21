@@ -1,0 +1,12 @@
+######################### Swift #################### :
+
+github "DaveWoodCom/XCGLogger"
+
+
+######################### Objective-C #################### :
+
+github "yarec/mojo-database"
+
+######################### For Test #################### :
+
+github "nschum/SwiftHamcrest"
