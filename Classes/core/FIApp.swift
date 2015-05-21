@@ -6,7 +6,7 @@ public let flog = XCGLogger.defaultInstance()
 
 public class FIApp: UIResponder  {
                             
-    var window: UIWindow?
+    public var window: UIWindow?
     var database: AppDatabase!
 
     public func setup(){
