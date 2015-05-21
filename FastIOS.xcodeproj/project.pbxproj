@@ -15,10 +15,6 @@
 		731A4E301B0D546200ACCDEE /* FastIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A4E2E1B0D546200ACCDEE /* FastIOS.swift */; };
 		731A4E311B0D546200ACCDEE /* FIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A4E2F1B0D546200ACCDEE /* FIApp.swift */; };
 		731A4E331B0D54E400ACCDEE /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 731A4E321B0D54E400ACCDEE /* Cartfile */; };
-		731A4E361B0D55B500ACCDEE /* MojoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731A4E341B0D55B500ACCDEE /* MojoDB.framework */; };
-		731A4E371B0D55B500ACCDEE /* MojoDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 731A4E341B0D55B500ACCDEE /* MojoDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		731A4E381B0D55B500ACCDEE /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731A4E351B0D55B500ACCDEE /* XCGLogger.framework */; };
-		731A4E391B0D55B500ACCDEE /* XCGLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 731A4E351B0D55B500ACCDEE /* XCGLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		731A4E5E1B0D5A1F00ACCDEE /* FastIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 731A4E5D1B0D5A1F00ACCDEE /* FastIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		731A4E641B0D5A1F00ACCDEE /* FastIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731A4E591B0D5A1F00ACCDEE /* FastIOS.framework */; };
 		731A4E6D1B0D5A1F00ACCDEE /* FastIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A4E6C1B0D5A1F00ACCDEE /* FastIOSTests.swift */; };
@@ -26,6 +22,12 @@
 		731A4E711B0D5A1F00ACCDEE /* FastIOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 731A4E591B0D5A1F00ACCDEE /* FastIOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		731A4E7C1B0D5F2700ACCDEE /* FastIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A4E2E1B0D546200ACCDEE /* FastIOS.swift */; };
 		731A4E7D1B0D5F2700ACCDEE /* FIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A4E2F1B0D546200ACCDEE /* FIApp.swift */; };
+		731A4E801B0D606400ACCDEE /* MojoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731A4E7E1B0D606400ACCDEE /* MojoDB.framework */; };
+		731A4E811B0D606400ACCDEE /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731A4E7F1B0D606400ACCDEE /* XCGLogger.framework */; };
+		731A4E821B0D606D00ACCDEE /* MojoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731A4E7E1B0D606400ACCDEE /* MojoDB.framework */; };
+		731A4E831B0D606D00ACCDEE /* MojoDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 731A4E7E1B0D606400ACCDEE /* MojoDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		731A4E841B0D606D00ACCDEE /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731A4E7F1B0D606400ACCDEE /* XCGLogger.framework */; };
+		731A4E851B0D606D00ACCDEE /* XCGLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 731A4E7F1B0D606400ACCDEE /* XCGLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,9 +61,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				731A4E371B0D55B500ACCDEE /* MojoDB.framework in Embed Frameworks */,
-				731A4E391B0D55B500ACCDEE /* XCGLogger.framework in Embed Frameworks */,
 				731A4E711B0D5A1F00ACCDEE /* FastIOS.framework in Embed Frameworks */,
+				731A4E831B0D606D00ACCDEE /* MojoDB.framework in Embed Frameworks */,
+				731A4E851B0D606D00ACCDEE /* XCGLogger.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,8 +83,6 @@
 		731A4E2E1B0D546200ACCDEE /* FastIOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastIOS.swift; sourceTree = "<group>"; };
 		731A4E2F1B0D546200ACCDEE /* FIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIApp.swift; sourceTree = "<group>"; };
 		731A4E321B0D54E400ACCDEE /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
-		731A4E341B0D55B500ACCDEE /* MojoDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MojoDB.framework; path = Carthage/Build/iOS/MojoDB.framework; sourceTree = "<group>"; };
-		731A4E351B0D55B500ACCDEE /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/iOS/XCGLogger.framework; sourceTree = "<group>"; };
 		731A4E531B0D59FC00ACCDEE /* FastIOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FastIOS copy-Info.plist"; path = "/upg/FastIOS/FastIOS copy-Info.plist"; sourceTree = "<absolute>"; };
 		731A4E591B0D5A1F00ACCDEE /* FastIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FastIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		731A4E5C1B0D5A1F00ACCDEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,6 +90,8 @@
 		731A4E631B0D5A1F00ACCDEE /* FastIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		731A4E6B1B0D5A1F00ACCDEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		731A4E6C1B0D5A1F00ACCDEE /* FastIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastIOSTests.swift; sourceTree = "<group>"; };
+		731A4E7E1B0D606400ACCDEE /* MojoDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MojoDB.framework; path = Carthage/Build/iOS/MojoDB.framework; sourceTree = "<group>"; };
+		731A4E7F1B0D606400ACCDEE /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/iOS/XCGLogger.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +99,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				731A4E361B0D55B500ACCDEE /* MojoDB.framework in Frameworks */,
-				731A4E381B0D55B500ACCDEE /* XCGLogger.framework in Frameworks */,
 				731A4E701B0D5A1F00ACCDEE /* FastIOS.framework in Frameworks */,
+				731A4E821B0D606D00ACCDEE /* MojoDB.framework in Frameworks */,
+				731A4E841B0D606D00ACCDEE /* XCGLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +109,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731A4E801B0D606400ACCDEE /* MojoDB.framework in Frameworks */,
+				731A4E811B0D606400ACCDEE /* XCGLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +128,8 @@
 		731A4DFF1B0D531F00ACCDEE = {
 			isa = PBXGroup;
 			children = (
+				731A4E7E1B0D606400ACCDEE /* MojoDB.framework */,
+				731A4E7F1B0D606400ACCDEE /* XCGLogger.framework */,
 				731A4E3D1B0D58F400ACCDEE /* framework */,
 				731A4E0A1B0D531F00ACCDEE /* FastIOS */,
 				731A4E201B0D531F00ACCDEE /* FastIOSTests */,
@@ -205,8 +211,6 @@
 		731A4E3D1B0D58F400ACCDEE /* framework */ = {
 			isa = PBXGroup;
 			children = (
-				731A4E341B0D55B500ACCDEE /* MojoDB.framework */,
-				731A4E351B0D55B500ACCDEE /* XCGLogger.framework */,
 			);
 			name = framework;
 			sourceTree = "<group>";
@@ -572,6 +576,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -596,6 +604,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FastIOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
