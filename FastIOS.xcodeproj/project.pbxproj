@@ -24,6 +24,8 @@
 		731A4E6D1B0D5A1F00ACCDEE /* FastIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A4E6C1B0D5A1F00ACCDEE /* FastIOSTests.swift */; };
 		731A4E701B0D5A1F00ACCDEE /* FastIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731A4E591B0D5A1F00ACCDEE /* FastIOS.framework */; };
 		731A4E711B0D5A1F00ACCDEE /* FastIOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 731A4E591B0D5A1F00ACCDEE /* FastIOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		731A4E7C1B0D5F2700ACCDEE /* FastIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A4E2E1B0D546200ACCDEE /* FastIOS.swift */; };
+		731A4E7D1B0D5F2700ACCDEE /* FIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A4E2F1B0D546200ACCDEE /* FIApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -398,6 +400,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731A4E7C1B0D5F2700ACCDEE /* FastIOS.swift in Sources */,
+				731A4E7D1B0D5F2700ACCDEE /* FIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
