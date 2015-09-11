@@ -19,6 +19,7 @@ public class FIApp: UIResponder  {
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         window?.makeKeyAndVisible()
+        FI.debug("log info from FI's debug")
         flog.debug("\(self.database.pathToDatabase)")
     }
 }
