@@ -1,4 +1,4 @@
-public class FI {
+public class FI : NSObject {
 
     static func info(string: String){
         flog.info(string)
