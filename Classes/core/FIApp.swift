@@ -3,6 +3,7 @@ import MojoDB
 import UIKit
 
 public let flog = XCGLogger.defaultInstance()
+public let $ = FastIOS()
 
 public class FIApp: UIResponder  {
                             
@@ -19,7 +20,7 @@ public class FIApp: UIResponder  {
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         window?.makeKeyAndVisible()
-        FI.debug("log info from FI's debug")
+        $.debug("log info from FastIOS's debug")
         flog.debug("\(self.database.pathToDatabase)")
     }
 }

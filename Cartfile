@@ -9,4 +9,4 @@ github "yarec/mojo-database"
 
 ######################### For Test #################### :
 
-#github "nschum/SwiftHamcrest"
+github "nschum/SwiftHamcrest" == 0.2

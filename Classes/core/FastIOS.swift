@@ -1,10 +1,10 @@
-public class FI : NSObject {
+public class FastIOS {
 
-    static func info(string: String){
+    func info(string: String){
         flog.info(string)
     }
 
-    static func debug(string: String){
+    func debug(string: String){
         flog.debug(string)
     }
 }
