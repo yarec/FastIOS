@@ -2,7 +2,7 @@ import XCGLogger
 import MojoDB
 import UIKit
 
-public let flog = XCGLogger.defaultInstance()
+public let xcg_log = XCGLogger.defaultInstance()
 public let $ = FastIOS()
 
 public class FIApp: UIResponder  {
@@ -11,7 +11,7 @@ public class FIApp: UIResponder  {
     var database: AppDatabase!
 
     public func setup(){
-        flog.setup(logLevel: .Debug, showLogLevel: false, showFileNames: false, showLineNumbers: false, writeToFile: nil, fileLogLevel: .Debug)
+        xcg_log.setup(logLevel: .Debug, showLogLevel: false, showFileNames: false, showLineNumbers: false, writeToFile: nil, fileLogLevel: .Debug)
         setupWithOutLog()
     }
     
@@ -20,7 +20,7 @@ public class FIApp: UIResponder  {
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         window?.makeKeyAndVisible()
-        $.debug("log info from FastIOS's debug")
-        flog.debug("\(self.database.pathToDatabase)")
+        
+        $.debug("\(self.database.pathToDatabase)")
     }
 }

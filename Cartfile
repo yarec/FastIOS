@@ -1,6 +1,6 @@
 ######################### Swift #################### :
 
-github "DaveWoodCom/XCGLogger" == 2.0
+github "DaveWoodCom/XCGLogger" == 3.0
 
 
 ######################### Objective-C #################### :
@@ -9,4 +9,4 @@ github "yarec/mojo-database"
 
 ######################### For Test #################### :
 
-github "nschum/SwiftHamcrest" == 0.2
+github "nschum/SwiftHamcrest" == 0.3

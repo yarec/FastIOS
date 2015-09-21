@@ -1,12 +1,11 @@
-import Foundation
 
-public class FastIOS : NSObject {
+public class FastIOS {
 
     public func info(string: String){
-        flog.info(string)
+        xcg_log.info(string)
     }
 
     public func debug(string: String){
-        flog.debug(string)
+        xcg_log.debug(string)
     }
 }
