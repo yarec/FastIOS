@@ -11,7 +11,7 @@ public class FIApp: UIResponder  {
     var database: AppDatabase!
 
     public func setup(){
-        xcg_log.setup(logLevel: .Debug, showLogLevel: false, showFileNames: false, showLineNumbers: false, writeToFile: nil, fileLogLevel: .Debug)
+        xcg_log.setup(.Debug, showLogLevel: false, showFileNames: false, showLineNumbers: false, writeToFile: nil, fileLogLevel: .Debug)
         setupWithOutLog()
     }
     
