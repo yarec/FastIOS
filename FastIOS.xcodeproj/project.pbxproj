@@ -325,11 +325,13 @@
 		731A4E001B0D531F00ACCDEE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = r.t;
 				TargetAttributes = {
 					731A4E071B0D531F00ACCDEE = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2973L83HU3;
 					};
 					731A4E581B0D5A1F00ACCDEE = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -544,13 +546,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tie Ren (2973L83HU3)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = FastIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3c602786-3c10-4a07-9adc-1e3c46cda02d";
 			};
 			name = Debug;
 		};
@@ -558,13 +564,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tie Ren (2973L83HU3)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = FastIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3c602786-3c10-4a07-9adc-1e3c46cda02d";
 			};
 			name = Release;
 		};
@@ -682,6 +692,7 @@
 				731A4E741B0D5A1F00ACCDEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		731A4E751B0D5A1F00ACCDEE /* Build configuration list for PBXNativeTarget "FastIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -690,6 +701,7 @@
 				731A4E771B0D5A1F00ACCDEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

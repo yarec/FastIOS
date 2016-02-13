@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>CAC4DF16-3235-4901-BE78-8F1FC8D699FB</string>
 	<key>IDESourceControlProjectName</key>
-	<string>FastIOS</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A6A8534BE7F83905FEAC7DE562D092B9D7390650</key>
 		<string>github.com:yarec/FastIOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FastIOS.xcodeproj</string>
+	<string>FastIOS.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A6A8534BE7F83905FEAC7DE562D092B9D7390650</key>
